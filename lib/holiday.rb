@@ -21,7 +21,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  holiday_supplies[:summer][:fourth_of_july]
   # holiday_hash is identical to the one above
   # add the second argument, which is a supply, to BOTH the
   # Christmas AND the New Year's arrays
@@ -58,6 +57,7 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
+  
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
 
